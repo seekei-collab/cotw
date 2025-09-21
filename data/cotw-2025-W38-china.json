@@ -1,11 +1,11 @@
 {
   "title": "MSCI World: China policy support lifts cyclicals",
-  "subtitle": "Weekly move vs 3y history (China policy lens)",
-  "notes": "Variant for China-policy story.",
+  "subtitle": "Targeted measures improved EM breadth; defensives lagged",
+  "notes": "Beta pickup led by Materials/Industrials; tech faded.",
   "rows": [
-    { "date": "2025-08-29", "index_return": 0.1, "story_impact_bps": 0, "is_week": false },
-    { "date": "2025-09-05", "index_return": -0.2, "story_impact_bps": 0, "is_week": false },
-    { "date": "2025-09-12", "index_return": -0.1, "story_impact_bps": 0, "is_week": false },
-    { "date": "2025-09-19", "index_return": -0.4, "story_impact_bps": -6.0, "is_week": true }
+    { "date": "2025-08-29", "index_return": 0.002,  "story_impact_bps": 0,   "is_week": false },
+    { "date": "2025-09-05", "index_return": -0.004, "story_impact_bps": 0,   "is_week": false },
+    { "date": "2025-09-12", "index_return": -0.006, "story_impact_bps": 0,   "is_week": false },
+    { "date": "2025-09-19", "index_return": -0.004, "story_impact_bps": -6,  "is_week": true }
   ]
 }
