@@ -1,0 +1,29 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"description": "MSCI World weekly returns vs 3y history with scenario scaling",
+"width": 960,
+"height": 420,
+"data": { "name": "table" },
+"params": [
+{ "name": "mult", "value": 1 },
+{ "name": "xDomain", "value": null }
+],
+"transform": [
+{ "calculate": "datum.index_return", "as": "ret" },
+{ "calculate": "datum.story_impact_bps * mult", "as": "impact_scaled" }
+],
+"encoding": {
+"x": { "field": "date", "type": "temporal", "scale": { "domain": { "param": "xDomain" } } }
+},
+"layer": [
+{ "mark": { "type": "line" },
+"encoding": { "y": { "field": "ret", "type": "quantitative", "title": "Weekly return" } } },
+{ "mark": { "type": "rule" },
+"encoding": { "x": { "field": "date" }, "opacity": { "condition": { "test": "datum.is_week==true", "value": 1 }, "value": 0 } } },
+{ "mark": { "type": "point", "filled": true, "size": 70 },
+"encoding": { "y": { "field": "ret" }, "color": { "condition": { "test": "datum.is_week==true", "value": "#d62728" }, "value": "#888" } } },
+{ "mark": { "type": "bar", "opacity": 0.2 },
+"encoding": { "y": { "field": "impact_scaled", "title": "Scaled impact (bps)" } }
+}
+]
+}
