@@ -1,6 +1,17 @@
-{ "title": "Sector drivers — USD strength", "rows": [
-  { "sector": "Energy",                 "bps":  2.5 },
-  { "sector": "Information Technology", "bps": -3.0 },
-  { "sector": "Consumer Discretionary", "bps": -1.0 },
-  { "sector": "Financials",             "bps": -0.8 }
-] }
+{
+  "title": "Sector drivers — USD strength",
+  "subtitle": "Contribution to index (bps)",
+  "rows": [
+    { "sector": "Energy",                  "bps":  +8.0 },
+    { "sector": "Information Technology",  "bps": -16.0 },
+    { "sector": "Consumer Discretionary",  "bps":  -9.0 },
+    { "sector": "Industrials",             "bps":  -7.0 },
+    { "sector": "Financials",              "bps":  -6.0 },
+    { "sector": "Health Care",             "bps":  -5.0 },
+    { "sector": "Materials",               "bps":  -4.0 },
+    { "sector": "Communication Services",  "bps":  -4.0 },
+    { "sector": "Consumer Staples",        "bps":  -3.0 },
+    { "sector": "Utilities",               "bps":  -2.0 },
+    { "sector": "Real Estate",             "bps":  -2.0 }
+  ]
+}
