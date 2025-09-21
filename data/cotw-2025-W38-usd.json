@@ -1,11 +1,11 @@
 {
-  "title": "MSCI World: Dollar strength tightens conditions",
-  "subtitle": "Weekly move vs 3y history (USD lens)",
-  "notes": "This variant reflects a USD-driven narrative.",
+  "title": "MSCI World: Broad USD rally tightens conditions",
+  "subtitle": "USD firmness weighed on non-US risk; exporters and Energy held up",
+  "notes": "FX translation + tighter FCI pressured ex-US equities.",
   "rows": [
-    { "date": "2025-08-29", "index_return": 0.1, "story_impact_bps": 0, "is_week": false },
-    { "date": "2025-09-05", "index_return": -0.2, "story_impact_bps": 0, "is_week": false },
-    { "date": "2025-09-12", "index_return": -0.3, "story_impact_bps": 0, "is_week": false },
-    { "date": "2025-09-19", "index_return": -0.6, "story_impact_bps": -10.0, "is_week": true }
+    { "date": "2025-08-29", "index_return": 0.003,  "story_impact_bps": 0,   "is_week": false },
+    { "date": "2025-09-05", "index_return": -0.007, "story_impact_bps": 0,   "is_week": false },
+    { "date": "2025-09-12", "index_return": -0.009, "story_impact_bps": 0,   "is_week": false },
+    { "date": "2025-09-19", "index_return": -0.006, "story_impact_bps": -10, "is_week": true }
   ]
 }
