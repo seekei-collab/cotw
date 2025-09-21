@@ -1,0 +1,5 @@
+{ "title": "Scenarios — China policy support", "rows": [
+  { "scenario": "Bear", "bps": -10 },
+  { "scenario": "Base", "bps":  -2 },
+  { "scenario": "Bull", "bps":   6 }
+] }
