@@ -1,0 +1,6 @@
+{ "title": "Sector drivers — China policy", "rows": [
+  { "sector": "Materials",              "bps":  1.8 },
+  { "sector": "Industrials",            "bps":  1.2 },
+  { "sector": "Information Technology", "bps": -0.6 },
+  { "sector": "Health Care",            "bps": -0.4 }
+] }
