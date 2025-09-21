@@ -1,0 +1,5 @@
+{ "title": "Scenarios — USD strength", "rows": [
+  { "scenario": "Bear", "bps": -18 },
+  { "scenario": "Base", "bps":  -6 },
+  { "scenario": "Bull", "bps":   3 }
+] }
