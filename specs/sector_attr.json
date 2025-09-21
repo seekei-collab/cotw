@@ -1,0 +1,22 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"description": "Weekly sector attribution to index move (bps)",
+"width": 960,
+"height": 420,
+"data": { "name": "table" },
+"params": [{"name":"mult","value":1}],
+"transform": [
+{"calculate": "datum.bps * mult", "as": "bps_scaled"},
+{"sort": ["Energy","Financials","Industrials","Materials","Consumer Staples","Health Care","Utilities","Real Estate","Consumer Discretionary","Communication Services","Information Technology"]}
+],
+"encoding": {"y": {"field": "sector", "type": "ordinal", "sort": "-x"}},
+"layer": [
+{"mark": {"type": "bar"},
+"encoding": {"x": {"field": "bps_scaled", "type": "quantitative", "title": "Contribution (bps)"},
+"color": {"condition": {"test": "datum.bps_scaled>0", "value": "#2ca02c"}, "value": "#d62728"}}},
+{"mark": {"type":"text", "dx": 4, "align":"left"},
+"encoding": {"y": {"field": "sector"},
+"x": {"field": "bps_scaled"},
+"text": {"field": "bps_scaled", "type":"quantitative", "format": ".1f"}}}
+]
+}
