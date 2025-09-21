@@ -1,0 +1,19 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"description": "Index drawdown vs running max; brush to zoom recent",
+"width": 960,
+"height": 420,
+"data": { "name": "table" },
+"params": [{"name":"xDomain","value": null}],
+"transform": [
+{"window": [{"op":"max","field":"level","as":"runmax"}], "frame": [null,0], "groupby": []},
+{"calculate": "(datum.level - datum.runmax) / datum.runmax * 100", "as":"drawdown_pct"}
+],
+"encoding": {"x": {"field":"date","type":"temporal","scale":{"domain":{"param":"xDomain"}}}},
+"layer": [
+{"mark": {"type":"area","opacity":0.2},
+"encoding": {"y": {"field":"drawdown_pct","type":"quantitative","title":"Drawdown (%)"}}},
+{"mark": {"type":"rule"},
+"encoding": {"y": {"value": 0}, "color": {"value":"#888"}}}
+]
+}
