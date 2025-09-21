@@ -1,0 +1,21 @@
+{
+"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+"description": "Base/Bull/Bear index impact (bps) with labels and scenario slider",
+"width": 720,
+"height": 360,
+"data": { "name": "table" },
+"params": [{"name":"mult","value":1}],
+"transform": [
+{"calculate": "datum.bps * mult", "as": "bps_scaled"}
+],
+"encoding": {"x": {"field": "scenario", "type": "nominal", "sort": ["Bear","Base","Bull"]}},
+"layer": [
+{"mark": {"type": "bar"},
+"encoding": {"y": {"field": "bps_scaled", "type": "quantitative", "title": "Impact (bps)"},
+"color": {"field": "scenario", "type": "nominal"}}},
+{"mark": {"type":"text", "dy": -6},
+"encoding": {"x": {"field": "scenario"},
+"y": {"field": "bps_scaled"},
+"text": {"field": "bps_scaled", "type": "quantitative", "format": ".1f"}}}
+]
+}
