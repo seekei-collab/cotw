@@ -1,5 +1,9 @@
-{ "title": "Scenarios — USD strength", "rows": [
-  { "scenario": "Bear", "bps": -18 },
-  { "scenario": "Base", "bps":  -6 },
-  { "scenario": "Bull", "bps":   3 }
-] }
+{
+  "title": "Scenarios — USD strength",
+  "subtitle": "Impact on MSCI World (bps)",
+  "rows": [
+    { "scenario": "Bear", "bps": -28 },
+    { "scenario": "Base", "bps": -10 },
+    { "scenario": "Bull", "bps":   6 }
+  ]
+}
