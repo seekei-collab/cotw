@@ -1,0 +1,5 @@
+{ "rows": [
+{"sector":"Energy","bps": 6.2},
+{"sector":"Information Technology","bps": -8.4},
+{"sector":"Financials","bps": -2.1}
+]}
