@@ -1,0 +1,10 @@
+{
+"title": "MSCI World: Oil shock meets sticky rates",
+"subtitle": "This week’s move vs 3y history; slider scales the story’s projected impact",
+"notes": "Base/Bull/Bear impacts are proxied via slider scaling of story_impact_bps.",
+"rows": [
+{ "date": "2024-10-04", "index_return": -0.2, "story_impact_bps": 0, "is_week": false },
+{ "date": "2025-09-12", "index_return": -0.3, "story_impact_bps": 0, "is_week": false },
+{ "date": "2025-09-19", "index_return": -0.8, "story_impact_bps": -12.5, "is_week": true }
+]
+}
