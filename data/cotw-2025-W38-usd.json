@@ -1,0 +1,11 @@
+{
+  "title": "MSCI World: Dollar strength tightens conditions",
+  "subtitle": "Weekly move vs 3y history (USD lens)",
+  "notes": "This variant reflects a USD-driven narrative.",
+  "rows": [
+    { "date": "2025-08-29", "index_return": 0.1, "story_impact_bps": 0, "is_week": false },
+    { "date": "2025-09-05", "index_return": -0.2, "story_impact_bps": 0, "is_week": false },
+    { "date": "2025-09-12", "index_return": -0.3, "story_impact_bps": 0, "is_week": false },
+    { "date": "2025-09-19", "index_return": -0.6, "story_impact_bps": -10.0, "is_week": true }
+  ]
+}
