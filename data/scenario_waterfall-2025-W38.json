@@ -1,0 +1,5 @@
+{ "rows": [
+{"scenario":"Bear","bps":-25},
+{"scenario":"Base","bps":-8},
+{"scenario":"Bull","bps":5}
+]}
