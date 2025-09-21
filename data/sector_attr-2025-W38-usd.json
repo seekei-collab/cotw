@@ -1,0 +1,6 @@
+{ "title": "Sector drivers — USD strength", "rows": [
+  { "sector": "Energy",                 "bps":  2.5 },
+  { "sector": "Information Technology", "bps": -3.0 },
+  { "sector": "Consumer Discretionary", "bps": -1.0 },
+  { "sector": "Financials",             "bps": -0.8 }
+] }
