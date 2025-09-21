@@ -1,6 +1,17 @@
-{ "title": "Sector drivers — China policy", "rows": [
-  { "sector": "Materials",              "bps":  1.8 },
-  { "sector": "Industrials",            "bps":  1.2 },
-  { "sector": "Information Technology", "bps": -0.6 },
-  { "sector": "Health Care",            "bps": -0.4 }
-] }
+{
+  "title": "Sector drivers — China policy",
+  "subtitle": "Contribution to index (bps)",
+  "rows": [
+    { "sector": "Materials",               "bps":  +9.0 },
+    { "sector": "Industrials",             "bps":  +6.0 },
+    { "sector": "Energy",                  "bps":  +3.0 },
+    { "sector": "Information Technology",  "bps":  -8.0 },
+    { "sector": "Consumer Discretionary",  "bps":  -7.0 },
+    { "sector": "Financials",              "bps":  -6.0 },
+    { "sector": "Health Care",             "bps":  -5.0 },
+    { "sector": "Communication Services",  "bps":  -4.0 },
+    { "sector": "Consumer Staples",        "bps":  -4.0 },
+    { "sector": "Utilities",               "bps":  -2.0 },
+    { "sector": "Real Estate",             "bps":  -2.0 }
+  ]
+}
