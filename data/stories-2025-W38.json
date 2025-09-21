@@ -1,0 +1,38 @@
+{
+  "week": "2025-W38",
+  "stories": [
+    {
+      "id": "oil-rates",
+      "title": "Oil pops; rates stay sticky",
+      "summary": "Crude rose on supply jitters while rate-cut bets faded. Global equities repriced inflation risk and rate path.",
+      "charts": {
+        "weekly":   { "dataUrl": "https://seekei-collab.github.io/cotw/data/cotw-2025-W38.json" },
+        "waterfall":{ "dataUrl": "https://seekei-collab.github.io/cotw/data/scenario_waterfall-2025-W38.json" },
+        "sector":   { "dataUrl": "https://seekei-collab.github.io/cotw/data/sector_attr-2025-W38.json" },
+        "drawdown": { "dataUrl": "https://seekei-collab.github.io/cotw/data/drawdown-2025-W38.json" }
+      }
+    },
+    {
+      "id": "usd-strength",
+      "title": "Dollar strength tightens financial conditions",
+      "summary": "A firmer USD weighed on non-US risk assets; exporters and Energy held up.",
+      "charts": {
+        "weekly":   { "dataUrl": "https://seekei-collab.github.io/cotw/data/cotw-2025-W38-usd.json" },
+        "waterfall":{ "dataUrl": "https://seekei-collab.github.io/cotw/data/scenario_waterfall-2025-W38-usd.json" },
+        "sector":   { "dataUrl": "https://seekei-collab.github.io/cotw/data/sector_attr-2025-W38-usd.json" },
+        "drawdown": { "dataUrl": "https://seekei-collab.github.io/cotw/data/drawdown-2025-W38.json" }
+      }
+    },
+    {
+      "id": "china-policy",
+      "title": "China policy support lifts cyclicals",
+      "summary": "Targeted measures boosted China-sensitive sectors; breadth improved across EM.",
+      "charts": {
+        "weekly":   { "dataUrl": "https://seekei-collab.github.io/cotw/data/cotw-2025-W38-china.json" },
+        "waterfall":{ "dataUrl": "https://seekei-collab.github.io/cotw/data/scenario_waterfall-2025-W38-china.json" },
+        "sector":   { "dataUrl": "https://seekei-collab.github.io/cotw/data/sector_attr-2025-W38-china.json" },
+        "drawdown": { "dataUrl": "https://seekei-collab.github.io/cotw/data/drawdown-2025-W38.json" }
+      }
+    }
+  ]
+}
